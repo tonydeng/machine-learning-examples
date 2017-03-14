@@ -43,7 +43,7 @@ Successfully installed appdirs-1.4.3 numpy-1.12.0 packaging-16.8 protobuf-3.2.0 
 
 ```python
 import tensorflow as tf
-hello = tf.constant('Hello, World!')
+hello = tf.constant('Hello, TensorFlow!')
 sess = tf.Session()
 print(sess.run(hello))
 ```
