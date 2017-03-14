@@ -6,4 +6,4 @@
 
 ## 例子
 
-[线性回归随机梯度算法](example/linear_regression.py)
+[线性回归随机梯度算法](example/linear-regression.py)

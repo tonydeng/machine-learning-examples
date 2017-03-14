@@ -54,4 +54,4 @@ print(sess.run(hello))
 b'Hello, TensorFlow!'
 ```
 
-查看代码 [hellp.py](demo/hello.py)
+查看代码 [hellp.py](../example/hello.py)
