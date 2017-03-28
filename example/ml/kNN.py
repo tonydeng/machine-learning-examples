@@ -3,9 +3,9 @@
 from numpy import *
 import operator
 
-def classify0(intX, dataSet, labels, k):
+def classify0(inX, dataSet, labels, k):
     '''
-    intX 用于分类的输入向量
+    inX 用于分类的输入向量
     dataSet 输入的训练样本集
     labels 标签向量
     k 表示用于选择最近邻居的数目
@@ -15,8 +15,10 @@ def classify0(intX, dataSet, labels, k):
     '''
     计算距离
     当前使用欧氏距离公式，技术两个向量点xA和xB之间的距离
+    相关欧氏距离可以查看文档
+    https://github.com/tonydeng/machine-learning-examples/blob/master/docs/math/euclidean-distance.md
     '''
-    diffMat = tile(intX, (dataSetSize ,1)) - dataSet
+    diffMat = tile(inX, (dataSetSize ,1)) - dataSet
     sqDiffMat = diffMat**2
     sqDistances = sqDiffMat.sum(axis=1)
     distances = sqDistances ** 0.5
