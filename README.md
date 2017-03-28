@@ -5,6 +5,8 @@
 
 [简单的神经元机器学习例子](docs/NEUAL-NETWORK.md)
 
+[欧几里得距离](docs/math/euclidean-distance.md)
+
 ## TensorFlow
 
 ### 安装及配置
