@@ -58,7 +58,7 @@ Sigmoid函数得名因其形状像S字母。
 
 Sigmoid函数的级数展开后的表示
 
-![](https://wikimedia.org/api/rest_v1/media/math/render/svg/d452330986d5f394c2a5af528efbaa028bcec3e3)
+![S函数](https://wikimedia.org/api/rest_v1/media/math/render/svg/d452330986d5f394c2a5af528efbaa028bcec3e3)
 
 Sigmoid函数是一个生物学中常见的S型的函数，也称为S型生长曲线。
 
@@ -93,4 +93,4 @@ Sigmoid曲线的梯度可以有导数获得：
 
 没有使用神经网络库，使用了numpy的几个函数, `array`(创建矩阵), `dot`(矩阵乘法), `random`(随机数), `exp`(自然对常数)
 
-具体代码，可以查看[neual-network.py](../example/neual-network.py)
+具体代码，可以查看[neual-network.py](../example/neaal/neual-network.py)

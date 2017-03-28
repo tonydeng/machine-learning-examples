@@ -32,6 +32,32 @@
 所谓欧氏距离变换，是指对于一张二值图像（在此我们假定白色为前景色，黑色为背景色），将前景中的像素的值转化为该点到达最近的背景点的距离。
 欧氏距离变换在数字图像处理中的应用范围很广泛，尤其对于图像的骨架提取，是一个很好的参照。
 
-## 来源：
+## 来源
 
 1. [维基百科-欧几里得距离](https://zh.wikipedia.org/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E8%B7%9D%E7%A6%BB)
+
+## 代码
+
+点击查看[kNN.py](../../example/ml/kNN.py)
+
+### 数据集
+
+|label|X|Y|
+|--|--|--|
+|A|1.0|1.1|
+|A|1.0|1.0|
+|B|0.0|0.0|
+|B|0.0|0.1|
+
+也可以下载相应[csv文件](../data/kNN.csv)
+
+### 使用R来绘制数据散点图
+
+```r
+library(readr)
+library(ggplot2)
+kNN <- read_csv("docs/data/kNN.csv")
+ggplot(kNN,aes(x=x,y=y,colour=label))+geom_point()
+```
+
+![kNN散点图](../images/kNN.png)
