@@ -60,4 +60,4 @@ kNN <- read_csv("docs/data/kNN.csv")
 ggplot(kNN,aes(x=x,y=y,colour=label))+geom_point()
 ```
 
-![kNN散点图](../images/kNN.png)
+![散点图](../images/kNN/base-data.png)

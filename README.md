@@ -5,7 +5,9 @@
 
 [简单的神经元机器学习例子](docs/NEUAL-NETWORK.md)
 
-[欧几里得距离](docs/math/euclidean-distance.md)
+[欧几里得距离](docs/ml/euclidean-distance.md)
+
+[k-NN算法](docs/ml/kNN.md)
 
 ## TensorFlow
 
